@@ -6,8 +6,10 @@ function Analytics() {
     <div className="w-full bg-white py-16 px-4">
       {/* Container */}
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
+        {/* md: Left Side of the Grid */}
         <img className="w-[500px] mx-auto my-4" src={Laptop} alt="Laptop image with data analytics" />
-        {/* Left Side of the Grid */}
+        
+        {/* md: Right Side of the Grid */}
         <div className="flex flex-col justify-center">
           <p className="text-[#00df9a] uppercase font-bold">Data Analytics Dashboard</p>
           <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">Manage Data Analytics Centrally</h1>
