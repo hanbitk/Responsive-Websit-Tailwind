@@ -16,5 +16,5 @@
         "jsx": true
       }
     },
-    "plugins": ["tailwindcss"]
+    "plugins": ["tailwindcss", "prettier"]
   }

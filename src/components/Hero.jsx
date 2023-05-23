@@ -1,5 +1,6 @@
 import React from 'react';
 import Typed from 'react-typed';
+import Button from './Button';
 
 function Hero() {
   return (
@@ -24,9 +25,9 @@ function Hero() {
         <p className="text-xl font-bold text-gray-500 md:text-2xl">
           Monitor your data analytics to increase revenue for BTB, BTC, & SASS platforms.
         </p>
-        <button className="mx-auto my-6 w-[200px] rounded-md bg-[#00df9a] py-3 font-medium text-black">
+        <Button bgColor="#00df9a" textColor="black">
           Get Started
-        </button>
+        </Button>
       </div>
     </div>
   );
