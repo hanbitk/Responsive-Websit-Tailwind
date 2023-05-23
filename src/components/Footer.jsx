@@ -1,22 +1,22 @@
-import React from "react";
+import React from 'react';
 import {
   FaDribbbleSquare,
   FaFacebookSquare,
   FaGithubSquare,
   FaInstagram,
   FaTwitterSquare,
-} from "react-icons/fa";
+} from 'react-icons/fa';
 
 function Footer() {
   return (
-    <div className="max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300">
+    <div className="mx-auto grid max-w-[1240px] gap-8 px-4 py-16 text-gray-300 lg:grid-cols-3">
       <div>
         <h1 className="w-full text-3xl font-bold text-[#00df9a]">REACT.</h1>
         <p className="py-4">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio hic
-          dignissimos, quam recusandae doloribus molestias necessitatibus!
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio hic dignissimos,
+          quam recusandae doloribus molestias necessitatibus!
         </p>
-        <div className="flex justify-between md:w-[75%] my-6">
+        <div className="my-6 flex justify-between md:w-[75%]">
           <FaFacebookSquare size={30} />
           <FaInstagram size={30} />
           <FaTwitterSquare size={30} />
@@ -25,7 +25,7 @@ function Footer() {
         </div>
       </div>
 
-      <div className="lg:col-span-2 flex justify-between mt-6">
+      <div className="mt-6 flex justify-between lg:col-span-2">
         <div>
           <h6 className="font-medium text-gray-400">Solutions</h6>
           <ul>
